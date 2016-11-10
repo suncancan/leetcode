@@ -16,3 +16,36 @@ Your algorithm should use only constant space. You may not modify the values in 
 注意事项：
 逻辑要清楚。ls初始化很重要。
 */
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode(int x) { val = x; }
+ * }
+ */
+public class Solution {
+    public ListNode swapPairs(ListNode head) {
+        if(head==null||head.next==null){
+            return head;
+        }
+        
+        ListNode ls=new ListNode(0);
+        ls.next=head;
+        ListNode temp,temp2;
+        head=head.next;
+        
+        
+        while(ls.next!=null&&ls.next.next!=null){
+            temp=ls.next;
+            temp2=ls.next.next.next;
+            
+            ls.next=ls.next.next;
+            ls.next.next=temp;
+            temp.next=temp2;
+            ls=ls.next.next;
+        }
+        
+        return head;
+    }
+}
