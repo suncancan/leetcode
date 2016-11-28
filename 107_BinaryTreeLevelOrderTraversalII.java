@@ -21,7 +21,7 @@ return its bottom-up level order traversal as:
 ]
 
 解题思路：
-同Binary Tree Level Order Traversal，只是输出顺序从最底层到最上层。
+同102 Binary Tree Level Order Traversal，只是输出顺序从最底层到最上层。
 利用add(0,list)来完成，每层插入时都插入到链表最前端。
 */
 /**
