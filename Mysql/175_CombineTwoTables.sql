@@ -1,8 +1,8 @@
-/*
+ï»¿/*
 @author Cathy
 @version 1.0
 
-ÌâÄ¿£ºCombine Two Tables(Difficulty: Easy)
+é¢˜ç›®ï¼šCombine Two Tables(Difficulty: Easy)
 Table: Person
 +-------------+---------+
 | Column Name | Type    |
@@ -28,7 +28,7 @@ Write a SQL query for a report that provides the following information for each 
 regardless if there is an address for each of those people:
 FirstName, LastName, City, State
 
-½âÌâË¼Â·£º
+è§£é¢˜æ€è·¯ï¼š
 left join
 */
 
