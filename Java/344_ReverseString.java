@@ -3,14 +3,14 @@
 @version 1.0
 RunTime:4ms
 
-ÌâÄ¿£ºReverse String(Difficulty: Easy)
+é¢˜ç›®ï¼šReverse String(Difficulty: Easy)
 Write a function that takes a string as input and returns the string reversed.
 
 Example:
 Given s = "hello", return "olleh".
 
-½âÌâË¼Â·£º
-1¡¢new StringBuffer(s).reverse())
+è§£é¢˜æ€è·¯ï¼š
+1ã€new StringBuffer(s).reverse())
 */
 
 class Solution {
