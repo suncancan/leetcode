@@ -10,7 +10,7 @@ Example:
 Given s = "hello", return "olleh".
 
 解题思路：
-1、new StringBuffer(s).reverse().toString()
+1、new StringBuffer(s).reverse())
 */
 
 class Solution {
