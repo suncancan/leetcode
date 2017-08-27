@@ -24,11 +24,11 @@ public class HeapSort {
 		int len=arr.length;
 		for(int i=len-1;i>0;i--){
 			 buildMaxHeap(arr,i);
-			 changePos(arr,0,i);
+			 swap(arr,0,i);
 		}
 	}
 	
-	public static void changePos(int[] arr,int m,int n){
+	public static void swap(int[] arr,int m,int n){
 		int temp=arr[m];
 		arr[m]=arr[n];
 		arr[n]=temp;
@@ -48,7 +48,7 @@ public class HeapSort {
 			if(right<=pos&&arr[right]>arr[max]){
 				max=right;
 			}
-			changePos(arr,max,i);
+			swap(arr,max,i);
 		}
 	}
 	
